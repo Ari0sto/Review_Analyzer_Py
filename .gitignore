@@ -1,0 +1,29 @@
+# Виртуальные окружения
+.venv/
+venv/
+
+# Python: кеш и временные файлы
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# IDE и системные файлы
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Локальные настройки и секреты
+.env
+.env.*
+!.env.example
+
+# Генерируемые результаты
+results.txt
+
+# Локально сохранённые модели и кеши
+.cache/
+huggingface/
+models/
